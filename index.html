@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilo.css">
-    <title>Document</title>
+    <title>Pagina de registro</title>
 </head>
 <body>
 
@@ -15,9 +15,9 @@
 
             <h1>Inicio de sesión</h1>
 
-            <input type="text" placeholder="Nombre">
+            <input type="text" id="nombre" placeholder="Nombre">
 
-            <input type="text" placeholder="Apellido">
+            <input type="text" id="apellido" placeholder="Apellido">
 
             <input type="text" placeholder="Cedula">
 
@@ -25,14 +25,22 @@
 
             <input type="text" placeholder="Asistencias en total">
 
-            <button>OK</button>
+            <button id="btnGuardar">OK</button>
 
-            <button>Cambiar la contraseña</button>
-
+            <button id="btnPassword">Cambiar la contraseña</button>
 
         </div>
 
     </div>
         
 </body>
+
+
+<!--Esta es la parte del boton de ok-->
+
+<script src="./index.js"></script>
+
+<!--Este es el script para que se pueda cambiar la contraseña-->
+
+<script src="./index2.js"></script>
 </html>
