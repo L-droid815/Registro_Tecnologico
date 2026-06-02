@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7d7d7d;
+    font-family: "Inter Tight", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contenedor-padre {
+    width: 100%;
+    max-width: 400px; /* Limita el ancho para que no se estire en pantallas grandes */
+    padding: 20px;
+}
+
+.registro {
+    background-color: #f0f0f0; /* Un fondo gris claro para notar el contraste */
+    border: 5px solid white; /* Bajé a 5px para que se vea más estilizado, puedes dejarlo en 10px si prefieres */
+    border-radius: 10px;
+    padding: 30px;
+    
+    /* El truco de Flexbox para centrar todo en vertical */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 15px; /* Crea una separación uniforme entre h1, inputs y botones */
+}
+
+/* Estilo opcional para que los inputs ocupen buen espacio y se vean prolijos */
+.registro input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Evita que el padding deforme el ancho del input */
+}
+
+button {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
