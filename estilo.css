@@ -36,6 +36,13 @@ body {
     gap: 15px; /* Crea una separación uniforme entre h1, inputs y botones */
 }
 
+/* Estilo para controlar el tamaño del logo de la universidad */
+.logo-universidad {
+    width: 120px; /* Tamaño ideal para que luzca bien en el contenedor */
+    height: auto; /* Mantiene la proporción redonda de la imagen */
+    margin-bottom: 5px; /* Espaciado extra con el título inferior */
+}
+
 /* Estilo opcional para que los inputs ocupen buen espacio y se vean prolijos */
 .registro input {
     width: 100%;
